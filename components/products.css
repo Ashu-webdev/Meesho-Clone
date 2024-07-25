@@ -1,0 +1,411 @@
+.pod{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.banner{
+    position: relative;
+    display: grid;
+    border-radius: 5px;
+    grid-template-columns: 1fr 1fr;;
+    padding: 40px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+    height: 300px;
+    width: 80%;
+    box-shadow: -2px -2px 20px rgba(70, 0, 58, 0.2);
+}
+
+.disp-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    width: 100px;
+}
+.disp img{
+    display: flex;
+    height: 350px;
+    margin-top:-20px;
+    margin-right: -10px;
+}
+
+.hd{
+    display: flex;
+    height: 150px;
+    width: 100%;
+    text-wrap: wrap;
+}
+.hd p{
+    display: flex;
+    margin-top: -40px;
+    font-size: 60px;
+}
+
+.btn img{
+    color:transparent;
+    width: 32px;
+    height: 32px;
+}
+
+.logos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: white;
+    margin-top: 0px;
+    margin-left: -20px;
+    margin-right: 20px;
+}
+
+.btn{
+    margin: 10px;
+    padding:7px;
+}
+
+.dwnld button{
+    background-color: rgb(216, 16, 216);
+    padding: 15px;
+    width: 70%;
+    margin-top: 10px;
+    margin-left: 50px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+    cursor:pointer;
+}
+.dldbtn{
+    display: flex;
+    flex-direction: row;
+}
+
+.dldimg{
+    display: flex;
+    margin-right: 10px;
+}
+.btnspan{
+    display: flex;
+    font-size: 20px;
+    margin-top: 2px;
+    color: white;
+}
+.categories{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 40px;
+    background-image: url('https://images.meesho.com/images/marketing/1721287461247_1200.webp');
+    height: 400px;
+    width: 80%;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    margin-top: -200px;
+    box-shadow: -2px -2px 20px rgba(70, 0, 58, 0.3);
+}
+
+.wmstr{
+    display: flex;
+    margin-top:-25px ;
+    height: 450px;
+    width: 400px;
+    border-radius: 5px;
+    margin-left: -20px;
+    background-image: url('https://images.meesho.com/images/marketing/1701835320853_400.webp');
+}
+
+.mnstr{
+    display: flex;
+    margin-top: 148px;
+    margin-left: 20px;
+    height: 280px;
+    width: 300px;
+    border-radius: 5px;
+    background-image: url('https://images.meesho.com/images/marketing/1692191045019_300.webp') ;
+}
+
+.kidstr{
+    display: flex;
+    margin-top: 148px;
+    margin-left: 20px;
+    height: 280px;
+    width: 300px;
+    border-radius: 5px;
+    background-image: url('https://images.meesho.com/images/marketing/1692191103963_300.webp') ;
+}
+
+.topcats{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    height: 200px;
+    width: 80%;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+.line{
+    display: flex;
+    width: 100%;
+    border-bottom: 2px solid purple;
+}
+
+.txt{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.txt p{
+    display: flex;
+    margin-top: -35px;
+    background-color: white;
+    color: purple;
+}
+
+.categories2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 40px;
+    background-image: url('https://images.meesho.com/images/marketing/1721287516322_1200.webp');
+    height: 400px;
+    width: 80%;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    box-shadow: -2px -2px 20px rgba(70, 0, 58, 0.3);
+}
+
+.cat2btn{
+    display: flex;
+    justify-content: center;
+}
+
+.cat2btn button{
+    display: flex;
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    border: none;
+    background-color: purple;
+    margin-top: 250px;
+    cursor: pointer;
+    box-shadow: 2px 2px 20px rgba(5, 1, 4, 0.986);
+}
+
+.cat2btn span{
+    display: flex;
+    font-size: 38px;
+    justify-content: center;
+}
+
+.cat2btn button:hover{
+    background-color: white;
+    color: purple;
+    border: 2px solid violet;
+    box-shadow: 2px 2px 20px rgba(70, 0, 58, 0.5);
+}
+
+.homedcr{
+    display: flex;
+    flex-direction: column;
+    background-image: url('https://images.meesho.com/images/marketing/1690978007288_200.webp');
+    margin-left: 200px;
+    height: 336px;
+    width: 200px;
+}
+
+.homedcr button{
+        display: flex;
+        padding: 17px;
+        margin-top: 350px;
+        border-radius: 14px;
+        border: none;
+        cursor: pointer;
+        box-shadow: 2px 2px 20px rgba(5, 1, 4, 0.986);
+        background-color: goldenrod;
+}
+
+.homedcr span{
+    display: flex;
+    font-size: 28px;
+    justify-content: center;
+}
+
+.homedcr button:hover{
+    color: white;
+    background-color: purple;
+} 
+
+
+
+.kitchen{
+    display: flex;
+    flex-direction: column;
+    background-image: url('https://images.meesho.com/images/marketing/1690978024110_200.webp');
+    margin-left: 10px;
+    height: 336px;
+    width: 200px;
+}
+.kitchen button{
+    display: flex;
+    padding: 17px;
+    margin-top: 350px;
+    border-radius: 14px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 20px rgba(5, 1, 4, 0.986);
+    background-color: goldenrod;
+}
+
+.kitchen span{
+    display: flex;
+    font-size: 28px;
+    justify-content: center;
+}
+
+.kitchen  button:hover{
+    color: white;
+    background-color: purple;
+}
+
+.hlt{
+    display: flex;
+    flex-direction: column;
+    background-image: url('https://images.meesho.com/images/marketing/1690977994925_200.webp');
+    margin-left: 10px;
+    height: 336px;
+    width: 200px;
+}
+.hlt button{
+    display: flex;
+    padding: 17px;
+    margin-top: 350px;
+    border-radius: 14px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 20px rgba(5, 1, 4, 0.986);
+    background-color: goldenrod;
+}
+
+.hlt span{
+    display: flex;
+    font-size: 28px;
+    justify-content: center;
+}
+
+.hlt  button:hover{
+    color: white;
+    background-color: purple;
+}
+
+.categories3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 40px;
+    background-image: url('https://images.meesho.com/images/marketing/1721287550429_1200.webp');
+    height: 400px;
+    width: 80%;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    box-shadow: -2px -2px 20px rgba(70, 0, 58, 0.3);
+}
+
+.acs{
+    display: flex;
+    flex-direction: column;
+    background-image: url('https://images.meesho.com/images/marketing/1690977773436_200.webp');
+    margin-left: 200px;
+    height: 336px;
+    width: 200px;
+}
+
+.acs button{
+        display: flex;
+        padding: 17px;
+        margin-top: 350px;
+        border-radius: 14px;
+        border: none;
+        cursor: pointer;
+        box-shadow: 2px 2px 20px rgba(5, 1, 4, 0.986);
+        background-color: goldenrod;
+}
+
+.acss span{
+    display: flex;
+    font-size: 28px;
+    justify-content: center;
+}
+
+.acs button:hover{
+    color: white;
+    background-color: purple;
+} 
+
+.ftwr{
+    display: flex;
+    flex-direction: column;
+    background-image: url('https://images.meesho.com/images/marketing/1690978024110_200.webp');
+    margin-left: 10px;
+    height: 336px;
+    width: 200px;
+}
+
+.ftwr button{
+        display: flex;
+        padding: 17px;
+        margin-top: 350px;
+        border-radius: 14px;
+        border: none;
+        cursor: pointer;
+        box-shadow: 2px 2px 20px rgba(5, 1, 4, 0.986);
+        background-color: goldenrod;
+}
+
+.ftwrbtn span{
+    display: flex;
+    font-size: 28px;
+    justify-content: center;
+}
+
+.ftwr button:hover{
+    color: white;
+    background-color: purple;
+} 
+
+
+.ele{
+    display: flex;
+    flex-direction: column;
+    background-image: url('https://images.meesho.com/images/marketing/1690977645848_200.webp');
+    margin-left: 10px;
+    height: 336px;
+    width: 200px;
+}
+
+.ele button{
+        display: flex;
+        padding: 17px;
+        margin-top: 350px;
+        border-radius: 14px;
+        border: none;
+        cursor: pointer;
+        box-shadow: 2px 2px 20px rgba(5, 1, 4, 0.986);
+        background-color: goldenrod;
+}
+
+.elebtn span{
+    display: flex;
+    font-size: 28px;
+    justify-content: center;
+}
+
+.ele button:hover{
+    color: white;
+    background-color: purple;
+} 
+
