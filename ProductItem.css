@@ -1,0 +1,24 @@
+.product-item {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+.product-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-item button {
+  padding: 10px 20px;
+  background-color: rgb(159, 22, 106);
+  color: black;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.product-item button:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
