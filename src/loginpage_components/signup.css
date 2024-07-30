@@ -1,0 +1,120 @@
+body,html{
+    width: 100%;
+    height: 118vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(244, 231, 233);
+  }
+  .container712 {
+      max-width: 400px;
+      padding: 0.5px;
+      background-color:white;
+      border: 1px solid black;
+      border-radius:10px 10px 10px 10px ;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      height:100vh;
+      position: relative;
+      margin-top: 50px;
+    }
+    .privacy910{
+      display: flex;
+      margin-left: 80px;
+      margin-top: 10px;
+      color: gray;
+      font-size: small;
+      font-weight: bold;
+    }
+    .policy920{
+      display: flex;
+      margin-left: 70px;
+      margin-top: -30px;
+      padding: 0px;
+      font-size: small;
+      font-weight: bold;
+      padding-top: 5px;
+      
+    }
+    .offer-card745{
+      width: 400px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    .offer-image789{
+      width: 400px;
+      height: auto;
+      border-radius:10px 10px 0 0;
+    }
+    h2 {
+      margin-top: 10px;
+      font-weight: bold;
+      color: black;
+    }
+    .form-group7120 {
+      margin-bottom: 1rem;
+      text-align: left; 
+    }
+    .input-group7850 {
+        position: relative;  
+      display: flex;
+      align-items: center;
+      margin-left: 50px;
+    } 
+     .input-group-text812 { 
+        font-size: 14px; 
+      background-color:white;
+      border: 1px solid black;
+       border-right: none;
+      padding: 0px;
+      height: 29px;
+      border-left: none;
+      border-top: none;
+      
+    }
+    .form-control897{
+      flex-grow: 1;
+      color: white;
+      border: 1px solid black;
+      height: 60px;
+      width: 180px;
+      margin-bottom: -7px;
+      margin-left: 18px;
+      margin-right: 130px;
+      font-size: 19px;
+    }
+    .input-group7850 input[type="tel"] {
+      padding-left: 15px; 
+      border: 1px solid black;
+      width: 225px;
+      height: 29px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom-width: 1px;
+        
+        
+  
+    } 
+    .container712 .btn-primary8100 {
+      background-color: purple;
+      color:white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 40px;
+      
+      
+    }
+      #bbtn:hover {
+      background-color: purple;
+    }
+    .error-message8200{
+      color: red;
+      font-size: 14px;
+      margin-top: 10px;
+    }  

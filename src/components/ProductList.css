@@ -1,0 +1,166 @@
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.fis{
+   display: flex;
+   flex-direction: row;
+   width: 50%;
+   
+   margin-left: 10px;
+}
+.sortby{
+   width: 96%;
+}
+
+.sortby button{
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 2px;
+  height: 30px;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+}
+
+.product-card {
+  background: white;
+  border: 1px solid rgb(202, 200, 200);
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  height: 420px;
+}
+
+.product-card img {
+  height: 100px;
+  width: auto;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.product-card h3 {
+  display: flex;
+  overflow:hidden;
+  height: 40px;
+  font-size: 16px;
+  margin: 10px 0;
+  color: gray;
+}
+.product-card p{
+  display: flex;
+  overflow: hidden;
+  color: rgb(58, 51, 51);
+  font-weight: bold;
+  font-size: 20px;
+  margin: 10px 0;
+  text-align: left;
+}
+
+.product-card .rating{
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: gray;
+  margin-top: 20px;
+  font-weight: lighter;
+}
+
+
+
+#prdrating {
+  display: flex;
+  border-radius: 19px;
+  background-color:seagreen;
+  color:white;
+  font-weight:bold;
+  font-size:15px;
+  padding: 5px;
+  text-align:center;
+}
+
+
+.dropdown{
+  display: none;
+  flex-direction: column;
+  overflow: scroll;
+  height: 150px;
+  position:absolute;
+  border: 1px solid black;
+  width: 18%;
+}
+
+.dropdown a{
+  display: flex;
+  height: 200px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  width: 98%;
+  cursor: pointer;
+  border-bottom: 1px solid black;
+}
+
+.sortby:hover .dropdown{
+  display:flex;
+}
+
+.sortby p{
+  display: flex;
+  justify-content: center;
+  margin-top: 6px;
+  font-size: 15px;
+}
+
+.up {
+  display: flex;
+  height: 16px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.down{
+  display: none;
+  height: 20px;
+  background-color: white;
+  position: absolute;
+  margin-left: 140px;
+  margin-top: 5px;
+}
+
+.sortby button{
+  background-color: white;
+}
+
+.sortby:hover .down{
+  display: flex;
+}
+
+/* .dropdown:hover .down{
+  display: flex;
+} */
+
+.addtocart123{
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  height: 30px;
+  font-size: 22px;
+  margin-top: 100px;
+  color: black;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.addtocart123:hover {
+  background-color:green;
+  border: 2px solid black;
+  color: rgb(33, 33, 33);
+  background-image: linear-gradient(10deg,  white,rgb(85, 250, 30));
+}
