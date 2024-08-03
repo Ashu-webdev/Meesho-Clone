@@ -1,0 +1,54 @@
+.footerbox{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+    flex-wrap: wrap;
+}
+
+.downloadbox{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.imagedownload img{
+    height:40px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.links{
+    margin-right: 10px;
+}
+
+.links p{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.policies p{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logocontainer{
+    display: flex;
+    flex-direction:row ;
+}
+
+.logocontainer img{
+    height: 30px;
+    margin-right: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.contactus p{
+    display: flex;
+    width: 200px;
+}
